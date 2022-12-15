@@ -8,7 +8,7 @@ import linked from './linked.png';
 import phone from './phone.png';
 import home from './home.png';
 import comma from './comma.png';
-import kohtet from './kohtet.png';
+import thuta from './thuta.png';
 import icon from './icon.png';
 import linkedin from './linkedin.png';
 import telegram from './telegram.png';
@@ -22,7 +22,7 @@ const Thuta = () => {
                 <div className="background-main">
                 <div className="shadow-block">
                 <img className="png" src={icon} alt="icon"/>
-                 <img id="face" src={kohtet} className="App-logo" alt="logo" />
+                 <img id="face" src={thuta} className="App-logo" alt="logo" />
                  <div className="infos1">
                  <h2>Pyae Thuta</h2>
                  <p id="pos1">Business Analyst & Project Coordinator</p>
@@ -65,7 +65,7 @@ const Thuta = () => {
                  <p>Nothing last long, either good or bad. <br /> But project with a terrible plan does.</p>    
                  </div>
                 <div className="inner-block">
-                 <img id="pf" src={htet} className="App-logo" alt="logo" />
+                 <img id="pf" src={thuta} className="App-logo" alt="logo" />
                 </div>
             </div>
             </div>

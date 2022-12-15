@@ -23,14 +23,14 @@ const Kyawt = () => {
                 <img className="png" src={icon} alt="icon"/>
                  <img id="face" src={kyawt} className="App-logo" alt="logo" />
                  <div className="infos1">
-                 <h2>Hein Htet Soe Moe</h2>
-                 <p id="pos1">Developer & Business Analyst</p>
+                 <h2>Kyawt Phoo San</h2>
+                 <p id="pos1">Junior Accountant</p>
                  <img id="logo1" src={mail} alt="mail" />
-                 <p>heinhtet@dinger.asia</p>
+                 <p>kyawt.phoosan@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p><a href="https://www.linkedin.com/in/kyawt-phoo-san/" target="_blank">Kyawt Phoo San &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
-                 <p>(+95) 9799827807</p>
+                 <p>(+95) 9767222447</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo1" src={comma} alt="comma" />
@@ -50,12 +50,12 @@ const Kyawt = () => {
             <div className="background">
             <Navicon />
             <div className="infos">
-                 <h2>Hein Htet Soe Moe</h2>
-                 <p id="pos">Developer & Business Analyst</p>
+                 <h2>Kyawt Phoo San</h2>
+                 <p id="pos">Junior Accountant</p>
                  <img id="logo" src={mail} alt="mail" />
-                 <p>heinhtet@dinger.asia</p>
+                 <p>kyawt.phoosan@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet Soe Moe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p><a href="https://www.linkedin.com/in/kyawt-phoo-san/" target="_blank"> Kyawt Phoo San &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9799827807</p>
                  <img id="logo" src={home} alt="home" />

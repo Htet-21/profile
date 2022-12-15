@@ -1,5 +1,4 @@
 import React from "react";
-import htet from './htet.png';
 import './style.css';
 import Navicon from "./Navicon";
 import "@fontsource/poppins";
@@ -8,34 +7,34 @@ import linked from './linked.png';
 import phone from './phone.png';
 import home from './home.png';
 import comma from './comma.png';
-import heinhtet from './heinhtet.png';
+import thon from './thon.png';
 import icon from './icon.png';
 import linkedin from './linkedin.png';
 import telegram from './telegram.png';
 import website from './website.png';
 
 
-const Heinhtet = () => {
+const Thon = () => {
     return ( 
         <div>
             <div className="pc">
                 <div className="background-main">
                 <div className="shadow-block">
                 <img className="png" src={icon} alt="icon"/>
-                 <img id="face" src={heinhtet} className="App-logo" alt="logo" />
+                 <img id="face" src={thon} className="App-logo" alt="logo" />
                  <div className="infos1">
-                 <h2>Hein Htet Soe Moe</h2>
-                 <p id="pos1">Developer & Business Analyst</p>
+                 <h2>Thon Dary Lwin</h2>
+                 <p id="pos1">UI / UX Designer</p>
                  <img id="logo1" src={mail} alt="mail" />
-                 <p>heinhtet@dinger.asia</p>
+                 <p>thondarylwin@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p><a href="https://www.linkedin.com/in/thondarylwin/" target="_blank"> Thon Dary Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
-                 <p>(+95) 9799827807</p>
+                 <p>(+95) 9778520570</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo1" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my mental issues.</p>   <br />
+                 <p>My ultimate design inspiration is <br /> 'DEADLINE'</p>   <br />
                  </div>
                  </div>
                  <div className="row">
@@ -51,21 +50,21 @@ const Heinhtet = () => {
             <div className="background">
             <Navicon />
             <div className="infos">
-                 <h2>Hein Htet Soe Moe</h2>
-                 <p id="pos">Developer & Business Analyst</p>
+                 <h2>Thon Dary Lwin</h2>
+                 <p id="pos">UI / UX Designer</p>
                  <img id="logo" src={mail} alt="mail" />
-                 <p>heinhtet@dinger.asia</p>
+                 <p>thondarylwin@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet Soe Moe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p><a href="https://www.linkedin.com/in/thondarylwin/" target="_blank"> Thon Dary Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
-                 <p>(+95) 9799827807</p>
+                 <p>(+95) 9778520570</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
+                 <p>My ultimate design inspiration is <br /> 'DEADLINE'</p>  
                  </div>
                 <div className="inner-block">
-                 <img id="pf" src={heinhtet} className="App-logo" alt="logo" />
+                 <img id="pf" src={thon} className="App-logo" alt="logo" />
                 </div>
             </div>
             </div>
@@ -73,4 +72,4 @@ const Heinhtet = () => {
      );
 }
  
-export default Heinhtet;
+export default Thon;

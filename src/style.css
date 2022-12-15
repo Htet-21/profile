@@ -6,6 +6,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
   }
   
   code {
@@ -198,7 +199,7 @@ body {
 
   .background-main {
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background: linear-gradient(to right, #F5CB4C 50%, #ffffff 50%);
 }
 
