@@ -34,7 +34,7 @@ const Kyawt = () => {
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo1" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my own mental issues.</p>   <br />
+                 <p>To achieve something you never had, <br /> you have to do something you never did.</p>   <br />
                  </div>
                  </div>
                  <div className="row">
@@ -61,7 +61,7 @@ const Kyawt = () => {
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
+                 <p>To achieve something you never had, <br /> you have to do something you never did.</p>  
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={kyawt} className="App-logo" alt="logo" />

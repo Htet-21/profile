@@ -35,7 +35,7 @@ const Htet = () => {
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo1" src={comma} alt="comma" />
-                 <p>Lorem ipsum dolor sit amet <br /> consectetur.</p>   <br /> 
+                 <p>In the startup world, 'not working is normal' <br /> - Paul Graham</p>   <br /> 
                  </div>
                  </div>
                  <div className="row">
@@ -63,7 +63,7 @@ const Htet = () => {
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
+                 <p>In the startup world, 'not working is normal' <br /> - Paul Graham</p>  
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={htet} className="App-logo" alt="logo" />
