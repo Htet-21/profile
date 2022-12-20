@@ -25,17 +25,19 @@ const Hsu = () => {
                  <div className="infos1">
                  <h2>Hsu Thet Thet Lwin</h2>
                  <p id="pos1">Senior Accountant</p>
-                 <img id="logo1" src={mail} alt="mail" />
-                 <p>hsuthet@dinger.asia</p>
+                 <img id="logo3" src={mail} alt="mail" />
+                 <p><br /> hsuthet@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="#" target="_blank"> Hsu Thet Thet Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="#" target="_blank"> Hsu Thet Thet Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 9440160616</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
-                 <img id="logo1" src={comma} alt="comma" />
-                 <p>Be so good they can't ignore you</p>   <br />
                  </div>
+                 <div className="quote">
+                  <img src={comma} alt="comma" />
+                  <p>Be so good they can't ignore you</p>   <br /> 
+                  </div>
                  </div>
                  <div className="row">
                  <div className="column">
@@ -51,17 +53,17 @@ const Hsu = () => {
             <Navicon />
             <div className="infos">
                  <h2>Hsu Thet Thet Lwin</h2>
-                 <p id="pos">Senior Accountant</p>
+                 <p id="pos2">Senior Accountant</p>
                  <img id="logo" src={mail} alt="mail" />
                  <p>hsuthet@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="#" target="_blank"> Hsu Thet Thet Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linked | <a href="#" target="_blank"> Hsu Thet Thet Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9440160616</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Be so good they can't ignore you</p>  
+                 <p id="quote1"><br />Be so good they can't ignore you</p>  
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={hsu} className="App-logo" alt="logo" />

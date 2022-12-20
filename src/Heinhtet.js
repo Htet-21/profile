@@ -1,5 +1,4 @@
 import React from "react";
-import htet from './htet.png';
 import './style.css';
 import Navicon from "./Navicon";
 import "@fontsource/poppins";
@@ -29,14 +28,16 @@ const Heinhtet = () => {
                  <img id="logo1" src={mail} alt="mail" />
                  <p>heinhtet@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet Soe Moe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 9799827807</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
-                 <img id="logo1" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my mental issues.</p>   <br />
                  </div>
+                 <div className="quote">
+                  <img src={comma} alt="comma" />
+                  <p>Software and cathedrals are much the same, <br /> first we build them, then we pray.</p>   <br /> 
+                  </div>
                  </div>
                  <div className="row">
                  <div className="column">
@@ -56,13 +57,13 @@ const Heinhtet = () => {
                  <img id="logo" src={mail} alt="mail" />
                  <p>heinhtet@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet Soe Moe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Hein Htet Soe Moe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9799827807</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Too good at error handling,<br />Too bad at handling my own mental <br /> issues.</p>  
+                 <p id="quote1"><br />Software and cathedrals are much <br /> the same, <br /> first we build them, then we pray. </p> 
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={heinhtet} className="App-logo" alt="logo" />

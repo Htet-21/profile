@@ -48,9 +48,9 @@ body {
 }
 
 #social {
-  padding-top: 600px !important;
-  margin-right: -96px !important;
-  margin-left: 250px !important;
+  padding-top: 670px !important;
+  margin-right: -100px !important;
+  margin-left: 260px !important;
 }
 
 .shadow-block {
@@ -90,6 +90,10 @@ body {
     margin-left: 50% !important;
   }
 
+  .quote {
+    margin-left: 50% !important;
+}
+
  .infos1 h2 {
   font-size: 28px !important;
  }
@@ -97,6 +101,18 @@ body {
  .infos1 p {
   font-size: 16px !important;
  }
+
+ .infos2 {
+  margin-left: 50% !important;
+}
+
+.infos2 h2 {
+font-size: 28px !important;
+}
+
+.infos2 p {
+font-size: 16px !important;
+}
 
   }
 
@@ -110,9 +126,9 @@ body {
     }
 
     .shadow-block {
-      width: 75% !important;
+      width: 85% !important;
       top: 10% !important;
-      left: 25%;
+      left: 20% !important;
     }
 
   .infos1 h2 {
@@ -123,15 +139,23 @@ body {
     font-size: 14px !important;
    }
 
+   .infos2 h2 {
+    font-size: 28px !important;
+   }
+
+   .infos2 p {
+    font-size: 14px !important;
+   }
+
    #face {
     margin-bottom: 60px !important;
 }
 
 #social {
-  padding-top: 580px !important;
+  padding-top: 635px !important;
   width: 20% !important;
-  margin-right: -127px !important;
-  margin-left: 205px !important;
+  margin-right: -27px !important;
+  margin-left: 155px !important;
 }
 
     .inner-block {
@@ -199,6 +223,20 @@ body {
       }
   }
 
+  #kbz-logo {
+    padding-top: 90%;
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    transition: 0.5s;
+    background-position: center;
+    background-image: url("/src/telegram.png");
+}
+
+#kbz-logo:hover {
+    transition: 0.5s;
+    background-image: url("/src/linkedin.png") !important;
+}
   .background-main {
     width: 100%;
     height: 200vh;
@@ -251,7 +289,7 @@ body {
   width: 50%;
   height: auto;
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 25%;
   margin: -50px 0 0 -50px;
   box-shadow: 10px 10px 42px rgb(0 0 0 / 25%);
@@ -281,20 +319,26 @@ body {
   margin-bottom: -35px;
 }
 
+#logo3 {
+  width: auto;
+  margin-bottom: -52px;
+}
+
 .infos1 {
+  line-height: 0px;
   width: 100%;
   margin-top: -43%;
-  margin-left: 60%;
+  margin-left: 55%;
 }
 
 .infos1 a {
   text-decoration: none;
-  color: black;
+  color: #005ECD;
 }
 
 .infos a {
   text-decoration: none;
-  color: black;
+  color: #005ECD;
 }
 
 .infos1 h2 {
@@ -310,7 +354,31 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: 15px;
+  line-height: 20px;
+  margin-left: 35px;
+}
+
+.quote {
+  width: 100%;
+  margin-left: 55%;
+  margin-top: 50px;
+} 
+
+#quote1 {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: -20px;
+} 
+
+.quote p {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
   margin-left: 35px;
 }
 
@@ -337,7 +405,7 @@ body {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 20px;
   padding-left: 560px;
 }
 
@@ -346,7 +414,7 @@ body {
 font-style: italic;
 font-weight: 400;
 font-size: 14px;
-line-height: 21px;
+line-height: 0px;
 padding-left: 540px;
 }
 
@@ -357,6 +425,15 @@ font-weight: 400;
 font-size: 14px;
 line-height: 21px;
 margin-left: 0px;
+}
+
+#pos2 {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 90px;
 }
 
 .icons {

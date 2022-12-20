@@ -25,17 +25,19 @@ const Tinttel = () => {
                  <div className="infos1">
                  <h2>Zwe Yin Tinttel</h2>
                  <p id="pos1">Head of Merchant Engagement</p>
-                 <img id="logo1" src={mail} alt="mail" />
-                 <p>tinttel@dinger.asia</p>
+                 <img id="logo3" src={mail} alt="mail" />
+                 <p><br /> tinttel@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/zwe-yin-tinttel-54663b166/" target="_blank"> Zwe Yin Tinttel &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/zwe-yin-tinttel-54663b166/" target="_blank"> Zwe Yin Tinttel &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 9421070405</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
-                 <img id="logo1" src={comma} alt="comma" />
-                 <p>Aspire to inspire, before we expire</p>   <br />
                  </div>
+                 <div className="quote">
+                  <img src={comma} alt="comma" />
+                  <p>Aspire to inspire, before we expire</p>   <br /> 
+                  </div>
                  </div>
                  <div className="row">
                  <div className="column">
@@ -51,17 +53,17 @@ const Tinttel = () => {
             <Navicon />
             <div className="infos">
                  <h2>Zwe Yin Tinttel</h2>
-                 <p id="pos">Head of Merchant Engagement</p>
+                 <p id="pos2">Head of Merchant Engagement</p>
                  <img id="logo" src={mail} alt="mail" />
                  <p>tinttel@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/zwe-yin-tinttel-54663b166/" target="_blank"> Zwe Yin Tinttel &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/zwe-yin-tinttel-54663b166/" target="_blank"> Zwe Yin Tinttel &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9421070405</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Aspire to inspire, before we expire</p>  
+                 <p id="quote1"><br />Aspire to inspire, before we <br />  expire</p> 
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={tinttel} className="App-logo" alt="logo" />

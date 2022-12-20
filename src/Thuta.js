@@ -26,17 +26,19 @@ const Thuta = () => {
                  <div className="infos1">
                  <h2>Pyae Thuta</h2>
                  <p id="pos1">Business Analyst & Project Coordinator</p>
-                 <img id="logo1" src={mail} alt="mail" />
-                 <p>pyaethuta@dinger.asia</p>
+                 <img id="logo3" src={mail} alt="mail" />
+                 <p><br /> pyaethuta@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
                  <p><a href="https://www.linkedin.com/in/pyaethuta/" target="_blank"> Pyae Thuta &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 9796029282</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
-                 <img id="logo1" src={comma} alt="comma" />
-                 <p>Nothing last long, either good or bad. <br /> But project with a terrible plan does.</p>   <br />
                  </div>
+                 <div className="quote">
+                  <img src={comma} alt="comma" />
+                  <p>Nothing last long, either good or bad. <br /> But project with a terrible plan does.</p>   <br /> 
+                  </div>
                  </div>
                  <div className="row">
                  <div className="column">
@@ -56,13 +58,13 @@ const Thuta = () => {
                  <img id="logo" src={mail} alt="mail" />
                  <p>pyaethuta@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/pyaethuta/" target="_blank"> Pyae Thuta &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/pyaethuta/" target="_blank"> Pyae Thuta &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9796029282</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>Nothing last long, either good or bad. <br /> But project with a terrible plan does.</p>    
+                 <p id="quote1"><br />Nothing last long, either good or <br />  bad.But project with a terrible plan <br />  does.</p>
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={thuta} className="App-logo" alt="logo" />

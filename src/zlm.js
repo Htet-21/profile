@@ -7,36 +7,36 @@ import linked from './linked.png';
 import phone from './phone.png';
 import home from './home.png';
 import comma from './comma.png';
-import okkar from './okkar.png';
 import icon from './icon.png';
+import zlm from './zlm.png';
 import linkedin from './linkedin.png';
 import telegram from './telegram.png';
 import website from './website.png';
 
 
-const Okkar = () => {
+const Tint = () => {
     return ( 
         <div>
             <div className="pc">
                 <div className="background-main">
                 <div className="shadow-block">
                 <img className="png" src={icon} alt="icon"/>
-                 <img id="face" src={okkar} className="App-logo" alt="logo" />
+                 <img id="face" src={zlm} className="App-logo" alt="logo" />
                  <div className="infos1">
-                 <h2>Okkar Min</h2>
-                 <p id="pos1">Head of BD & Partnerships</p>
+                 <h2>Zin Lin Myat</h2>
+                 <p id="pos1">Co-founder & CCO</p>
                  <img id="logo3" src={mail} alt="mail" />
-                 <p><br /> okkar.minn@dinger.asia</p>
+                 <p><br /> tinthtoonaung@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/okkar-min-49425785/" target="_blank"> Okkar Min &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/tint-htoo-naung-4a20819b/" target="_blank"> Tint Htoo Naung &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
-                 <p>(+95) 9 450699900</p>
+                 <p>(+95) 95000473</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  </div>
                  <div className="quote">
                   <img src={comma} alt="comma" />
-                  <p>Giving the best is not an option. <br /> It's just my daily routine.</p>   <br /> 
+                  <p>Beyond your limit</p>   <br /> 
                   </div>
                  </div>
                  <div className="row">
@@ -52,21 +52,21 @@ const Okkar = () => {
             <div className="background">
             <Navicon />
             <div className="infos">
-                 <h2>Okkar Min</h2>
-                 <p id="pos2">Head of BD & Partnerships</p>
+                 <h2>Zin Lin Myat</h2>
+                 <p id="pos">Co-founder & CCO</p>
                  <img id="logo" src={mail} alt="mail" />
-                 <p>okkar.minn@dinger.asia</p>
+                 <p>tinthtoonaung@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p>Linkedin | <a href="https://www.linkedin.com/in/okkar-min-49425785/" target="_blank"> Okkar Min &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/tint-htoo-naung-4a20819b/" target="_blank"> Tint Htoo Naung &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
-                 <p>(+95) 9 450699900</p>
+                 <p>(+95) 95000473</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p id="quote1"><br /> Giving the best is not an option. <br /> It's just my daily routine.</p>  
+                 <p id="quote1"><br />Beyond your limit </p> 
                  </div>
                 <div className="inner-block">
-                 <img id="pf" src={okkar} className="App-logo" alt="logo" />
+                 <img id="pf" src={zlm} className="App-logo" alt="logo" />
                 </div>
             </div>
             </div>
@@ -74,4 +74,4 @@ const Okkar = () => {
      );
 }
  
-export default Okkar;
+export default Tint;

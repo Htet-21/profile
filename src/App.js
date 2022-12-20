@@ -8,6 +8,7 @@ import Thin from './Thin';
 import Okkar from './Okkar';
 import Tinttel from './Tinttel';
 import Hsu from './Hsu';
+import Tint from './Tint';
 import Thon from './Thon';
 import { Routes, Route } from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="hsuthetthetlwin" element={<Hsu />} />
         <Route path="heinhtet" element={<Heinhtet />} />
         <Route path="okkar" element={<Okkar />} />
+        <Route path="tinthtoonaung" element={<Tint />} />
       </Routes>
     </div>
      

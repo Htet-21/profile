@@ -25,17 +25,19 @@ const Thon = () => {
                  <div className="infos1">
                  <h2>Thon Dary Lwin</h2>
                  <p id="pos1">UI / UX Designer</p>
-                 <img id="logo1" src={mail} alt="mail" />
-                 <p>thondarylwin@dinger.asia</p>
+                 <img id="logo3" src={mail} alt="mail" />
+                 <p><br /> thondarylwin@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/thondarylwin/" target="_blank"> Thon Dary Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin |  <a href="https://www.linkedin.com/in/thondarylwin/" target="_blank"> Thon Dary Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 9778520570</p>
                  <img id="logo1" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
-                 <img id="logo1" src={comma} alt="comma" />
-                 <p>My ultimate design inspiration is <br /> 'DEADLINE'</p>   <br />
                  </div>
+                 <div className="quote">
+                  <img src={comma} alt="comma" />
+                  <p>My ultimate design inspiration is <br /> 'DEADLINE'</p>   <br /> 
+                  </div>
                  </div>
                  <div className="row">
                  <div className="column">
@@ -51,17 +53,17 @@ const Thon = () => {
             <Navicon />
             <div className="infos">
                  <h2>Thon Dary Lwin</h2>
-                 <p id="pos">UI / UX Designer</p>
+                 <p id="pos2">UI / UX Designer</p>
                  <img id="logo" src={mail} alt="mail" />
                  <p>thondarylwin@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p><a href="https://www.linkedin.com/in/thondarylwin/" target="_blank"> Thon Dary Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/thondarylwin/" target="_blank"> Thon Dary Lwin &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 9778520570</p>
                  <img id="logo" src={home} alt="home" />
                  <p>No [647], Corner of 21st Street, 6th <br /> floor, China Town Hotel, Latha <br /> Township, Yangon.</p>
                  <img id="logo" src={comma} alt="comma" />
-                 <p>My ultimate design inspiration is <br /> 'DEADLINE'</p>  
+                 <p id="quote1"><br />My ultimate design inspiration is <br /> 'DEADLINE'</p>  
                  </div>
                 <div className="inner-block">
                  <img id="pf" src={thon} className="App-logo" alt="logo" />
