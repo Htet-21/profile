@@ -14,7 +14,7 @@ import telegram from './telegram.png';
 import website from './website.png';
 
 
-const Tint = () => {
+const Zin = () => {
     return ( 
         <div>
             <div className="pc">
@@ -26,9 +26,9 @@ const Tint = () => {
                  <h2>Zin Lin Myat</h2>
                  <p id="pos1">Co-founder & CCO</p>
                  <img id="logo3" src={mail} alt="mail" />
-                 <p><br /> tinthtoonaung@dinger.asia</p>
+                 <p><br /> zinlinmyat@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p>Linkedin | <a href="https://www.linkedin.com/in/tint-htoo-naung-4a20819b/" target="_blank"> Tint Htoo Naung &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/zin-lin-myat-1b688a179/" target="_blank">Zin Lin Myat &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 95000473</p>
                  <img id="logo1" src={home} alt="home" />
@@ -55,9 +55,9 @@ const Tint = () => {
                  <h2>Zin Lin Myat</h2>
                  <p id="pos">Co-founder & CCO</p>
                  <img id="logo" src={mail} alt="mail" />
-                 <p>tinthtoonaung@dinger.asia</p>
+                 <p>zinlinmyat@dinger.asia</p>
                  <img id="logo" src={linked} alt="linked" />
-                 <p>Linkedin | <a href="https://www.linkedin.com/in/tint-htoo-naung-4a20819b/" target="_blank"> Tint Htoo Naung &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/zin-lin-myat-1b688a179/" target="_blank"> Zin Lin Myat &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo" src={phone} alt="phone" />
                  <p>(+95) 95000473</p>
                  <img id="logo" src={home} alt="home" />
@@ -74,4 +74,4 @@ const Tint = () => {
      );
 }
  
-export default Tint;
+export default Zin;

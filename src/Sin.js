@@ -28,7 +28,7 @@ const Sin = () => {
                  <img id="logo3" src={mail} alt="mail" />
                  <p><br /> sss@dinger.asia</p>
                  <img id="logo1" src={linked} alt="linked" />
-                 <p>Linkedin | <a href="https://www.linkedin.com/in/heinhtet21/" target="_blank"> Sin Sit Soe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
+                 <p>Linkedin | <a href="https://www.linkedin.com/in/sin-sit-soe-23ba71137/" target="_blank"> Sin Sit Soe &nbsp;&nbsp;<i class="fa-solid fa-link"></i></a></p>
                  <img id="logo1" src={phone} alt="phone" />
                  <p>(+95) 95417899</p>
                  <img id="logo1" src={home} alt="home" />

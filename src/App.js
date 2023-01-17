@@ -10,6 +10,8 @@ import Tinttel from './Tinttel';
 import Hsu from './Hsu';
 import Tint from './Tint';
 import Thon from './Thon';
+import Paing from './paing';
+import Zin from './zlm';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
         <Route path="heinhtet" element={<Heinhtet />} />
         <Route path="okkar" element={<Okkar />} />
         <Route path="tinthtoonaung" element={<Tint />} />
+        <Route path="painghtetaung" element={<Paing />} />
+        <Route path="zinlinmyat" element={<Zin />} />
       </Routes>
     </div>
      
