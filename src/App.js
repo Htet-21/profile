@@ -12,6 +12,7 @@ import Tint from './Tint';
 import Thon from './Thon';
 import Paing from './paing';
 import Zin from './zlm';
+import Mono from './mono';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="tinthtoonaung" element={<Tint />} />
         <Route path="painghtetaung" element={<Paing />} />
         <Route path="zinlinmyat" element={<Zin />} />
+        <Route path="mono" element={<Mono />} />
       </Routes>
     </div>
      
