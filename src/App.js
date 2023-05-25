@@ -14,11 +14,13 @@ import Paing from './paing';
 import Zin from './zlm';
 import Mono from './mono';
 import { Routes, Route } from "react-router-dom";
+import Pyei from "./Pyei";
+import Saw from "./Saw";
 
 function App() {
   return (
     <div className="App">
-          <Routes>
+      <Routes>
         <Route path="/" element={<Htet />} />
         <Route path="htetarkarkyaw" element={<Htet />} />
         <Route path="kyawtphoosan" element={<Kyawt />} />
@@ -34,6 +36,8 @@ function App() {
         <Route path="painghtetaung" element={<Paing />} />
         <Route path="zinlinmyat" element={<Zin />} />
         <Route path="mono" element={<Mono />} />
+        <Route path="thomas" element={<Pyei />} />
+        <Route path="sawthetphyoe" element={<Saw />} />
       </Routes>
     </div>
      
